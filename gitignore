@@ -1,0 +1,20 @@
+# dependencies
+node_modules/
+
+# secrets and local env
+.env
+.env.*
+
+# logs and caches
+*.log
+.cache/
+.bun/
+
+# editor and OS junk
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# note: dist/ is intentionally NOT ignored.
+# Lumiverse loads dist/frontend.js, so it is committed prebuilt.
