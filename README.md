@@ -80,7 +80,7 @@ The easiest way is the settings modal (see above). The same options live in the 
 | swipeNextSelector | (see file) | Host-specific fallback if the build retries via swipe. |
 | stopSelector | (see file) | Host-specific stop button, used to abort a stalled run. |
 
-Default changes from 1.0.0: `retryDelayMs` 1500 to 1200, `stuckTimeoutMs` 90000 to 60000, `idleTimeoutMs` 25000 to 20000, and `retryOnTruncated` added (on). These are judgment calls tuned for faster recovery on real cutoffs. Bump them back up in the settings modal if your provider has long legitimate pauses.
+The defaults are tuned for faster recovery on real cutoffs, so the delays and timeouts lean shorter rather than longer. If your provider has long but legitimate pauses, bump `retryDelayMs`, `stuckTimeoutMs`, and `idleTimeoutMs` back up in the settings modal.
 
 ## Setting regenerateSelector
 
