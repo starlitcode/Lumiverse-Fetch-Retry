@@ -80,7 +80,7 @@ The easiest way is the settings modal (see above). The same options live in the 
 | swipeNextSelector | (see file) | Host-specific fallback if the build retries via swipe. |
 | stopSelector | (see file) | Host-specific stop button, used to abort a stalled run. |
 
-The defaults are tuned for faster recovery on real cutoffs, so the delays and timeouts lean shorter rather than longer. If your provider has long but legitimate pauses, bump `retryDelayMs`, `stuckTimeoutMs`, and `idleTimeoutMs` back up in the settings modal.
+The defaults are tuned for faster recovery on real cutoffs, so the delays and timeouts lean shorter rather than longer. If your provider has long but legitimate pauses, bump `retryDelayMs`, `stuckTimeoutMs`, and `idleTimeoutMs` up in the settings modal.
 
 ## Setting regenerateSelector
 
