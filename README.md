@@ -53,7 +53,7 @@ All cut-off retries share the same `maxRetries` budget, so this cannot loop.
 In Lumiverse, open Extensions and install from this extension's repository URL:
 
 ```
-https://github.com/starlitcode/Lumiverse-Fetch-Retry
+https://github.com/starlitcode/Lumiverse-Auto-Retry
 ```
 
 ## Configuration
